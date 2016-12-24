@@ -4,8 +4,8 @@
 
 #include <stdint.h>
 
-#define MAXROWS 18
-#define MAXCOLS 18
+#define MAXROWS 9
+#define MAXCOLS 9
 
 enum sqstat
 {
@@ -46,5 +46,5 @@ enum winner
     NONE, playerX, playerO
 };
 
-enum winner check_win(struct Board* board);
-enum winner check_win_recursive(const struct Square* current_space, int win_squares);
+enum winner check_win_condition(struct Board *board);
+enum winner find_winner(const struct Square *current_space, int direction, int win_squares);
