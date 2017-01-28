@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "tictactoe.h"
 
-void main() {
+int main() {
 
     printf("Let's play Tic Tac Toe!\n");
     struct Board game;
@@ -17,4 +17,5 @@ void main() {
     } while (w == NONE);
 
     // getchar();
+    return 0;
 }

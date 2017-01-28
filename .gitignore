@@ -1,1 +1,7 @@
 cmake-build-debug
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+test_runner
+tictactoe_cl
